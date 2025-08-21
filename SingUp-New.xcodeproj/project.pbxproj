@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D8EAB6F82E55AD8400E246FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8EAB6DF2E55AD8200E246FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8EAB6E62E55AD8200E246FD;
+			remoteInfo = "SingUp-New-Surya";
+		};
+		D8EAB7022E55AD8400E246FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8EAB6DF2E55AD8200E246FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8EAB6E62E55AD8200E246FD;
+			remoteInfo = "SingUp-New-Surya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8EAB6E72E55AD8200E246FD /* SingUp-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SingUp-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EAB6F72E55AD8400E246FD /* SingUp-NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SingUp-NewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EAB7012E55AD8400E246FD /* SingUp-NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SingUp-NewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D8EAB6E92E55AD8200E246FD /* SingUp-New */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SingUp-New";
+			sourceTree = "<group>";
+		};
+		D8EAB6FA2E55AD8400E246FD /* SingUpTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SingUpTests;
+			sourceTree = "<group>";
+		};
+		D8EAB7042E55AD8400E246FD /* SingUpUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SingUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8EAB6E42E55AD8200E246FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EAB6F42E55AD8400E246FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EAB6FE2E55AD8400E246FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8EAB6DE2E55AD8200E246FD = {
+			isa = PBXGroup;
+			children = (
+				D8EAB6E92E55AD8200E246FD /* SingUp-New */,
+				D8EAB6FA2E55AD8400E246FD /* SingUpTests */,
+				D8EAB7042E55AD8400E246FD /* SingUpUITests */,
+				D8EAB6E82E55AD8200E246FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8EAB6E82E55AD8200E246FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8EAB6E72E55AD8200E246FD /* SingUp-New.app */,
+				D8EAB6F72E55AD8400E246FD /* SingUp-NewTests.xctest */,
+				D8EAB7012E55AD8400E246FD /* SingUp-NewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8EAB6E62E55AD8200E246FD /* SingUp-New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EAB70B2E55AD8400E246FD /* Build configuration list for PBXNativeTarget "SingUp-New" */;
+			buildPhases = (
+				D8EAB6E32E55AD8200E246FD /* Sources */,
+				D8EAB6E42E55AD8200E246FD /* Frameworks */,
+				D8EAB6E52E55AD8200E246FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D8EAB6E92E55AD8200E246FD /* SingUp-New */,
+			);
+			name = "SingUp-New";
+			packageProductDependencies = (
+			);
+			productName = "SingUp-New-Surya";
+			productReference = D8EAB6E72E55AD8200E246FD /* SingUp-New.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8EAB6F62E55AD8400E246FD /* SingUp-NewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EAB70E2E55AD8400E246FD /* Build configuration list for PBXNativeTarget "SingUp-NewTests" */;
+			buildPhases = (
+				D8EAB6F32E55AD8400E246FD /* Sources */,
+				D8EAB6F42E55AD8400E246FD /* Frameworks */,
+				D8EAB6F52E55AD8400E246FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8EAB6F92E55AD8400E246FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D8EAB6FA2E55AD8400E246FD /* SingUpTests */,
+			);
+			name = "SingUp-NewTests";
+			packageProductDependencies = (
+			);
+			productName = "SingUp-New-SuryaTests";
+			productReference = D8EAB6F72E55AD8400E246FD /* SingUp-NewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8EAB7002E55AD8400E246FD /* SingUp-NewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8EAB7112E55AD8400E246FD /* Build configuration list for PBXNativeTarget "SingUp-NewUITests" */;
+			buildPhases = (
+				D8EAB6FD2E55AD8400E246FD /* Sources */,
+				D8EAB6FE2E55AD8400E246FD /* Frameworks */,
+				D8EAB6FF2E55AD8400E246FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8EAB7032E55AD8400E246FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D8EAB7042E55AD8400E246FD /* SingUpUITests */,
+			);
+			name = "SingUp-NewUITests";
+			packageProductDependencies = (
+			);
+			productName = "SingUp-New-SuryaUITests";
+			productReference = D8EAB7012E55AD8400E246FD /* SingUp-NewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8EAB6DF2E55AD8200E246FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D8EAB6E62E55AD8200E246FD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D8EAB6F62E55AD8400E246FD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D8EAB6E62E55AD8200E246FD;
+					};
+					D8EAB7002E55AD8400E246FD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D8EAB6E62E55AD8200E246FD;
+					};
+				};
+			};
+			buildConfigurationList = D8EAB6E22E55AD8200E246FD /* Build configuration list for PBXProject "SingUp-New" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8EAB6DE2E55AD8200E246FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D8EAB6E82E55AD8200E246FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8EAB6E62E55AD8200E246FD /* SingUp-New */,
+				D8EAB6F62E55AD8400E246FD /* SingUp-NewTests */,
+				D8EAB7002E55AD8400E246FD /* SingUp-NewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8EAB6E52E55AD8200E246FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EAB6F52E55AD8400E246FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EAB6FF2E55AD8400E246FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8EAB6E32E55AD8200E246FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EAB6F32E55AD8400E246FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EAB6FD2E55AD8400E246FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8EAB6F92E55AD8400E246FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8EAB6E62E55AD8200E246FD /* SingUp-New */;
+			targetProxy = D8EAB6F82E55AD8400E246FD /* PBXContainerItemProxy */;
+		};
+		D8EAB7032E55AD8400E246FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8EAB6E62E55AD8200E246FD /* SingUp-New */;
+			targetProxy = D8EAB7022E55AD8400E246FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8EAB7092E55AD8400E246FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8EAB70A2E55AD8400E246FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8EAB70C2E55AD8400E246FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.SingUp-New-Surya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8EAB70D2E55AD8400E246FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.SingUp-New-Surya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8EAB70F2E55AD8400E246FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.SingUp-New-SuryaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingUp-New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SingUp-New";
+			};
+			name = Debug;
+		};
+		D8EAB7102E55AD8400E246FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.SingUp-New-SuryaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingUp-New.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SingUp-New";
+			};
+			name = Release;
+		};
+		D8EAB7122E55AD8400E246FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.SingUp-New-SuryaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SingUp-New-Surya";
+			};
+			name = Debug;
+		};
+		D8EAB7132E55AD8400E246FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FY2ZUW5Q3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.SingUp-New-SuryaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SingUp-New-Surya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8EAB6E22E55AD8200E246FD /* Build configuration list for PBXProject "SingUp-New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EAB7092E55AD8400E246FD /* Debug */,
+				D8EAB70A2E55AD8400E246FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EAB70B2E55AD8400E246FD /* Build configuration list for PBXNativeTarget "SingUp-New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EAB70C2E55AD8400E246FD /* Debug */,
+				D8EAB70D2E55AD8400E246FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EAB70E2E55AD8400E246FD /* Build configuration list for PBXNativeTarget "SingUp-NewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EAB70F2E55AD8400E246FD /* Debug */,
+				D8EAB7102E55AD8400E246FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8EAB7112E55AD8400E246FD /* Build configuration list for PBXNativeTarget "SingUp-NewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EAB7122E55AD8400E246FD /* Debug */,
+				D8EAB7132E55AD8400E246FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8EAB6DF2E55AD8200E246FD /* Project object */;
+}
