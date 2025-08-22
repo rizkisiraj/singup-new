@@ -8,25 +8,20 @@
 import SwiftUI
 
 struct RootView: View {
-    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding: Bool = false
+    
+    @StateObject var coordinator = AppCoordinator()
     
     var body: some View {
-        if #available(iOS 16.0, *) {
-            NavigationStack {
-                if hasSeenOnboarding {
-                    HomeView()
-                } else {
-                    OnboardingView()
-                }
+        switch coordinator.flow {
+        case .splash:
+            SplashScreen()
+        case .onboarding:
+            OnboardingView {
+                coordinator.didFinishOnboarding()
             }
-        } else {
-            NavigationView {
-                if hasSeenOnboarding {
-                    HomeView()
-                } else {
-                    OnboardingView()
-                }
-            }
+        case .home:
+            HomeView()
+
         }
     }
 }

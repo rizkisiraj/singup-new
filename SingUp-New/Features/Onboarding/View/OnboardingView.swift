@@ -9,9 +9,8 @@ import SwiftUI
 
 struct OnboardingView: View {
     @StateObject private var viewModel = OnboardingViewModel()
-    @State private var navigateToHome = false
-    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding: Bool = false
-    
+    var onFinish: () -> Void
+
     var body: some View {
         VStack(spacing: 40) {
             // MARK: Image with slide + fade animation
@@ -77,7 +76,7 @@ struct OnboardingView: View {
                 
                 Button(action: {
                     if viewModel.isLastStep {
-                        hasSeenOnboarding = true
+                        onFinish()
                     } else {
                         viewModel.nextStep()
                     }
@@ -91,41 +90,12 @@ struct OnboardingView: View {
                         .cornerRadius(10)
                 }
                 .padding(.bottom, 40)
-                
-                // MARK: Navigation
-                if #available(iOS 16.0, *) {
-                    NavigationStack {
-                        VStack {
-                            Text("")
-                            .navigationDestination(isPresented: $navigateToHome) {
-                                HomeView()
-                            }
-                        }
-                    }
-                } else {
-                    NavigationView {
-                        VStack {
-                            NavigationLink(
-                                destination: HomeView(),
-                                isActive: $navigateToHome
-                            ) {
-                                EmptyView()
-                            }
-                            
-                            Button("Go to Home") {
-                                navigateToHome = true
-                            }
-                        }
-                    }
-                }
             }
         }
         .padding(.horizontal, 32)
     }
 }
 
-
-
-#Preview {
-    OnboardingView()
-}
+//#Preview {
+//    OnboardingView()
+//}

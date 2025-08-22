@@ -8,13 +8,11 @@
 import SwiftUI
 
 @main
-struct SingUp_New_SuryaApp: App {
-    @State private var hasOnboarded = UserDefaults.standard.bool(forKey: "hasOnboarded")
+struct SingUp_New_App: App {
     
     var body: some Scene {
         WindowGroup {
             AppView()
-
         }
     }
 }
