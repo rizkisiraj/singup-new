@@ -8,15 +8,13 @@
 import SwiftUI
 
 struct HomeView: View {
-    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding: Bool = false
-    
+
     var body: some View {
         VStack(spacing: 20) {
             Text("Welcome to Home 🎉")
                 .font(.largeTitle)
             
             Button("Reset Onboarding (Debug)") {
-                hasSeenOnboarding = false
             }
             .padding()
             .background(Color.red.opacity(0.7))
@@ -26,6 +24,6 @@ struct HomeView: View {
     }
 }
 
-#Preview {
-    HomeView()
-}
+//#Preview {
+//    HomeView()
+//}
